@@ -24,6 +24,8 @@ app.MapGet("api/todo", async (TodoContext db) => {
 
 });
 
+app.MapGet("/", () => "Hello World!");
+
 app.MapGet("api/todo/{id}", async (TodoContext db, int id) => {
 
     var items = await db.ToDos.Where(i=>i.Id==id).ToListAsync();
