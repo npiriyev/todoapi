@@ -4,16 +4,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:42698",
+      "applicationUrl": "http://localhost:42699",
       "sslPort": 44358
     }
   },
   "profiles": {
     "ToDoApi": {
       "commandName": "Project",
-      "applicationUrl": "http://localhost:18449",
+      "applicationUrl": "http://localhost:18450",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
     "IIS Express": {
@@ -21,7 +21,7 @@
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     }
   }
